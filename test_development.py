@@ -21,7 +21,7 @@ both the if and else statements seperately'''
     # pros: tests drive the design (bottom-up approach)
     # you write the tests first, then write the code
     # focuses on: "are we building the thing right?"
-# behavior driven development (bdd) - focuses on the the behaviot of the system from the 'outside'
+# behavior driven development (bdd) - focuses on the the behavirt of the system from the 'outside'
     # pros: works great for integration testing, uses syntax that both developers and stakeholders can understand (top-down approach)
     # focuses on: "are we building the right thing?"
 # when testing, you will use both tdd and bdd
@@ -57,4 +57,13 @@ for data in test_data:
     # tip: avoid raising too broad of an exception
     # ideally, you want to be as explicit and specific as possible when raising errors
 
+    # notes on tdd - 
+    # testing has the following benefits:
+    # 1. it helps you to write better code
+    # 2. it helps you to write code faster
+    # 3. it helps you to write code that is easier to maintain
+    # 4. it helps you to write code that is easier to debug
+    # 5. it helps you to write code that is easier to scale
+    # 6. it helps you to write code that is easier to collaborate on
+    # 7. it helps you to write code that is easier to document
     
