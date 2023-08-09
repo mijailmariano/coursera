@@ -7,8 +7,9 @@ images
 bs4
 
 # Ignore virtual environments
+virtual-env/
+virtual-env
 myenv/
 venv/
 env/
 myenv_py3.11/
-virtual-env/
