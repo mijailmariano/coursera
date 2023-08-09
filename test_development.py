@@ -54,16 +54,56 @@ for data in test_data:
     print(f'The area of a triangle {data}'\
           f' is: {area_of_a_triangle(*data)}')
     
-    # tip: avoid raising too broad of an exception
-    # ideally, you want to be as explicit and specific as possible when raising errors
+# tip: avoid raising too broad of an exception
+# ideally, you want to be as explicit and specific as possible when raising errors
 
-    # notes on tdd - 
-    # testing has the following benefits:
-    # 1. it helps you to write better code
-    # 2. it helps you to write code faster
-    # 3. it helps you to write code that is easier to maintain
-    # 4. it helps you to write code that is easier to debug
-    # 5. it helps you to write code that is easier to scale
-    # 6. it helps you to write code that is easier to collaborate on
-    # 7. it helps you to write code that is easier to document
+# notes on tdd - 
+# testing has the following benefits:
+# 1. it helps you to write better code
+# 2. it helps you to write code faster
+# 3. it helps you to write code that is easier to maintain
+# 4. it helps you to write code that is easier to debug
+# 5. it helps you to write code that is easier to scale
+# 6. it helps you to write code that is easier to collaborate on
+# 7. it helps you to write code that is easier to document
     
+# ----------------------------------------------------------------------------------------------------------------------------
+# Tuesday, 08/08/2023
+
+# red, green, refactor - refers to 
+# 1. red - write a test that fails
+# 2. green - write the code to make the test pass
+# 3. refactor - improve the code without changing the functionality
+
+# automate all testing - this is a key principle of DevOps
+# tdd saves development time and ensures that the code is working as expected
+# so what is automated testing?
+
+# automated testing is the process of writing code to test your code
+# some python testing frameworks and tools include:
+# 1. unittest
+# 2. pytest
+
+# PyUnit
+# this package/library is built into Python
+
+# Pytest
+# this package/library is not built into Python
+# you will need to install it using pip
+
+# DocTest
+# this package/library is built into Python
+# it is used to test code in docstrings
+# good for low-scale testing, but not necessarily for large-scale testing
+
+# Nose
+# this package/library is not built into Python
+# it is a wrapper for unittest and doctest
+# Code Coverage - refers to the percentage of code that is covered by tests
+
+# unittest examples:
+# how do i create a virtual environment?
+# python -m venv <name of virtual environment>
+# what is the defualt name of the virtual environment?
+# venv
+
