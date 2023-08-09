@@ -11,3 +11,4 @@ myenv/
 venv/
 env/
 myenv_py3.11/
+virtual-env/
